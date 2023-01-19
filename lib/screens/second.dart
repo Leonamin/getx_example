@@ -21,6 +21,8 @@ class SecondScreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 Get.back();
+                // 이거는 자동으로 돌아가지진 않는다.
+                // Get.toNamed('/home');
               },
               child: const Text("FALLBACK!!!"),
             ),

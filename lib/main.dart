@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_example/route_test_app/route_test_app.dart';
 import 'package:getx_example/screens/home.dart';
 import 'package:getx_example/screens/second.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const RouteTestApp());
 }
 
 appRoutes() => [
